@@ -1,4 +1,3 @@
-```html
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -13,6 +12,7 @@ margin:0;
 background:#f2fff2;
 text-align:center;
 color:#1b4332;
+scroll-behavior:smooth;
 }
 
 header{
@@ -22,22 +22,7 @@ padding:30px;
 }
 
 .hero{
-padding:50px 20px;
-}
-
-.card{
-background:white;
-margin:20px;
-padding:20px;
-border-radius:20px;
-box-shadow:0 4px 10px rgba(0,0,0,.1);
-}
-
-iframe{
-width:90%;
-height:350px;
-border:none;
-border-radius:20px;
+padding:60px 20px;
 }
 
 button{
@@ -47,6 +32,25 @@ padding:15px 25px;
 border:none;
 border-radius:20px;
 font-size:18px;
+cursor:pointer;
+margin-top:20px;
+}
+
+.card{
+background:white;
+margin:20px auto;
+padding:20px;
+border-radius:20px;
+box-shadow:0 4px 10px rgba(0,0,0,.1);
+max-width:900px;
+text-align:left;
+}
+
+iframe{
+width:100%;
+height:350px;
+border:none;
+border-radius:20px;
 }
 
 footer{
@@ -62,154 +66,63 @@ margin-top:30px;
 
 <header>
 <h1>EcoStep 🌱</h1>
-<p>Explora el mercado de forma fácil, inclusiva y segura</p>
+<p>Explora el mercado de Tepoztlán y el mercado nuevo de forma fácil, rápida e inclusiva</p>
 </header>
 
 <section class="hero">
 <h2>Bienvenido a EcoStep</h2>
-<p>Una app creada para ayudar a turistas a encontrar productos, precios y ubicarse en el mercado de Tepoztlán.</p>
+<p>Una app diseñada para ayudar a turistas y visitantes a ubicarse dentro del mercado, encontrar productos y conocer precios.</p>
 
-```html
 <a href="#ecostep">
-  <button>Conocer EcoStep</button>
+<button>Conocer EcoStep</button>
 </a>
 </section>
-```
-
 
 <div class="card">
-<h2>🗺️ Mapa de Tepoztlán</h2>
-
+<h2>🗺️ Mapa del Mercado</h2>
+<p>Ubica fácilmente los puestos dentro de Tepoztlán.</p>
 <iframe src="https://www.google.com/maps?q=Tepoztlán%20Morelos&output=embed"></iframe>
 </div>
 
-<div class="card">
-<h2>💰 ¿Cómo gana dinero EcoStep?</h2>
-<p>Publicidad local, comerciantes destacados y versión premium.</p>
+<div class="card" id="ecostep">
+
+<h2>🌱 ¿Qué es EcoStep?</h2>
+<p>
+EcoStep es una aplicación móvil creada para mejorar la experiencia dentro del mercado de Tepoztlán y el mercado nuevo.
+Ayuda a turistas y visitantes a encontrar productos, ubicarse y conocer precios.
+</p>
+
+<h2>📌 Problema</h2>
+<p>
+Las personas se pierden en el mercado, no conocen precios y hay barreras de idioma.
+</p>
+
+<h2>💡 Solución</h2>
+<p>🗺️ Mapa interactivo</p>
+<p>💰 Precios aproximados</p>
+<p>🔎 Buscador de productos</p>
+<p>♿ Modo inclusivo</p>
+<p>🌍 Traducción para turistas</p>
+
+<h2>💰 Cómo gana dinero</h2>
+<p>✔ Comerciantes destacados</p>
+<p>✔ Publicidad local</p>
+<p>✔ Versión premium</p>
+
+<h2>👥 Equipo</h2>
+<p>César, Sherlyn, William, Irving, Antonio y Monserrat</p>
+
+<h2>🚀 Misión</h2>
+<p>Mejorar la experiencia turística y comercial en los mercados de Tepoztlán.</p>
+
+<h2>👀 Visión</h2>
+<p>Expandir EcoStep a más mercados de México.</p>
+
 </div>
 
-<div class="card">
-<h2>👥 Equipo EcoStep</h2>
-<p>César, Sherlyn, William, Irving, Antonio y Monserrat</p>
-# 🌱 EcoStep
-```html
-<section id="ecostep">
-```
+<footer>
+<p>EcoStep © 2026</p>
+</footer>
 
-## ¿Qué es EcoStep?
-
-EcoStep es una aplicación móvil diseñada para mejorar la experiencia de turistas, visitantes y habitantes dentro del mercado de Tepoztlán y el mercado nuevo. Nuestra app busca facilitar la ubicación de puestos, brindar información sobre productos, mostrar precios aproximados y ofrecer una experiencia más organizada, accesible e inclusiva.
-
-EcoStep nace como una propuesta innovadora que combina tecnología y turismo para apoyar al comercio local y mejorar la experiencia de compra de todas las personas.
-
----
-
-## Problema que queremos resolver
-
-Actualmente, muchas personas que visitan el mercado de Tepoztlán y el mercado nuevo enfrentan problemas como:
-
-* Dificultad para encontrar puestos específicos
-* Falta de información sobre precios aproximados
-* Desorientación dentro del mercado
-* Barreras de idioma para turistas extranjeros
-* Problemas de accesibilidad para adultos mayores o personas con discapacidad
-
-Estas situaciones pueden afectar la experiencia de compra y turismo dentro del mercado.
-
----
-
-## Nuestra solución
-
-EcoStep ofrece herramientas tecnológicas para facilitar la visita al mercado mediante:
-
-🗺️ **Mapa interactivo del mercado**
-Permite encontrar fácilmente puestos, entradas, baños y zonas importantes.
-
-💰 **Consulta de precios aproximados**
-Ayuda a turistas y visitantes a conocer rangos de precios de productos.
-
-🔎 **Buscador inteligente de productos**
-Permite localizar rápidamente productos y negocios específicos.
-
-♿ **Modo inclusivo**
-Incluye letras más grandes, audio guía y funciones accesibles.
-
-🌍 **Idioma para turistas**
-Ayuda a visitantes extranjeros con traducciones básicas.
-
-⭐ **Recomendaciones personalizadas**
-Sugiere puestos populares, comida típica y zonas recomendadas.
-
----
-
-## Público objetivo
-
-EcoStep está dirigida a:
-
-* Turistas nacionales e internacionales
-* Habitantes locales
-* Comerciantes del mercado
-* Adultos mayores
-* Personas con discapacidad
-
----
-
-## Beneficios de EcoStep
-
-### Para turistas
-
-✔️ Mejor orientación dentro del mercado
-✔️ Ahorro de tiempo
-✔️ Información clara de productos y precios
-✔️ Mayor comodidad durante la visita
-
-### Para comerciantes
-
-✔️ Más visibilidad para sus negocios
-✔️ Más clientes potenciales
-✔️ Oportunidad de promocionar productos
-
----
-
-## ¿Cómo gana dinero EcoStep?
-
-Nuestro modelo de negocio incluye:
-
-💵 **Comerciantes destacados**
-Los negocios pueden pagar para aparecer en primeras posiciones.
-
-📢 **Publicidad local**
-Espacios publicitarios para restaurantes, hoteles y comercios.
-
-⭐ **Versión premium**
-Funciones extra para turistas y recomendaciones avanzadas.
-
-🤝 **Convenios turísticos**
-Alianzas con negocios y espacios turísticos de Tepoztlán.
-
----
-
-## Misión
-
-Mejorar la experiencia turística y comercial mediante una aplicación tecnológica, accesible e inclusiva para todas las personas que visitan el mercado de Tepoztlán y el mercado nuevo.
-
----
-
-## Visión
-
-Convertir a EcoStep en una plataforma reconocida en México, expandiendo el proyecto a otros mercados turísticos y comerciales del país.
-
----
-
-## ¿Por qué invertir en EcoStep?
-
-EcoStep combina turismo, tecnología, accesibilidad y apoyo al comercio local en una sola plataforma, ofreciendo una solución innovadora con potencial de crecimiento y expansión a otras ciudades de México.
-
----
-
-## Equipo EcoStep
-
-César, Sherlyn, William, Irving, Antonio y Monserrat.
-```html
-</section>
-```
+</body>
+</html>
